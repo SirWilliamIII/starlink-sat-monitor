@@ -1,0 +1,24 @@
+[project]
+name = "starlink-monitor-backend"
+version = "0.1.0"
+description = "Starlink monitoring dashboard backend"
+readme = "README.md"
+requires-python = ">=3.11.13"
+dependencies = [
+    "flask>=2.3.3",
+    "flask-socketio>=5.3.6",
+    "flask-cors>=4.0.0",
+    "requests>=2.31.0",
+    "python-socketio>=5.8.0",
+    "grpcio>=1.50.0",
+    "grpcio-tools>=1.50.0",
+    "sgp4>=2.20",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+]
